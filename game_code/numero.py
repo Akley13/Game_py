@@ -2,6 +2,9 @@ print('==================== SEJA BEM-VINDO =======================')
 
 print('\n')
 
+nome = input('Nome: ')
+sobrenome = input('Sobrenome: ')
+
 from random import randint
 
 n_escolhido = int(input('Chute um número: '))
