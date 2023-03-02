@@ -1,4 +1,4 @@
-print('==================== SEJA BEM-VINDO ====================')
+print('==================== SEJA BEM-VINDO =======================')
 
 print('\n')
 
@@ -8,9 +8,13 @@ n_escolhido = int(input('Chute um número: '))
 
 sorteio = randint(0, 7)
 
-while n_escolhido != sorteio:
-    print('Que pena, tente de novo!')
-
+if n_escolhido == sorteio:
+    print('Parabéns, Você venceu!!!')
+    
+else:
+    print('Errado!!! \nNúmero que pensei foi {}!'.format(sorteio))
+    
+print('\n')
 print('==================== OBRIGADO POR JOGAR ====================')
     
     
